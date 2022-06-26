@@ -1,0 +1,49 @@
+app-screen {
+  background: rgb(255, 232, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 232, 179, 1) 16%,
+    rgba(255, 219, 62, 1) 50%,
+    rgba(255, 200, 81, 1) 90%
+  );
+}
+.get-started {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.head1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.head2 {
+  font-weight: 700;
+}
+
+.head3 {
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+  box-shadow: inset 0px -80px 25px -50px rgb(253, 255, 153);
+  transition: box-shadow 0.3s;
+  color: inherit;
+  overflow: hidden;
+}
+.nft-card {
+  padding: 1.2rem;
+  border-radius: 20px;
+  background-color: white;
+  /* background: rgb(255, 200, 81);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 232, 179, 1) 4%,
+    rgba(255, 219, 62, 1) 48%,
+    rgba(255, 200, 81, 1) 87%
+  ); */
+}
+.nft-img-card {
+  border-radius: 20px;
+}

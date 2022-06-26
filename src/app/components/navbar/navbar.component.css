@@ -1,0 +1,21 @@
+.block-icon {
+  font-size: 3rem;
+}
+.nav-hover {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-weight: 700;
+}
+.nav-hover:hover {
+  font-size: 1.3rem;
+  transition: 500ms;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-shadow: inset 0px -50px 17px -30px rgb(253, 255, 153);
+}
+.head1 {
+  font-size: 2rem;
+  font-weight: bold;
+  word-wrap: break-word;
+}

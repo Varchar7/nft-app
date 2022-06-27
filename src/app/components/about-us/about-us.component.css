@@ -1,0 +1,9 @@
+.about-us {
+  background: rgb(255, 232, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 232, 179, 1) 16%,
+    rgba(255, 219, 62, 1) 50%,
+    rgba(255, 200, 81, 1) 90%
+  );
+}

@@ -1,0 +1,18 @@
+.options .option {
+  background: var(--optionBackground, var(--defaultBackground, #fff));
+  background-position: center;
+  transition: 500ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.nft-card {
+  padding: 1.2rem;
+  border-radius: 20px;
+  background-color: white;
+  /* background: rgb(255, 200, 81);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 232, 179, 1) 4%,
+      rgba(255, 219, 62, 1) 48%,
+      rgba(255, 200, 81, 1) 87%
+    ); */
+}

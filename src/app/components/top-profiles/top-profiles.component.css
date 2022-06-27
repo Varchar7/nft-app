@@ -1,8 +1,18 @@
 .card-image {
   object-fit: cover;
   height: 25vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.object-card {
+  box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.75);
+  border: 2px solid;
+  border-radius: 22px;
 }
 .object-card:hover {
   transition: 500ms;
   transform: scale(1.1);
+  box-shadow: none;
+
+  box-shadow: 5px 5px 15px 2px rgba(255, 238, 0, 0.75);
 }

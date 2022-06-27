@@ -1,4 +1,4 @@
-.get-started-bg {
+/* .get-started-bg {
   background: rgb(255, 232, 179);
   background: linear-gradient(
     90deg,
@@ -6,7 +6,7 @@
     rgba(255, 219, 62, 1) 50%,
     rgba(255, 200, 81, 1) 90%
   );
-}
+} */
 .get-started {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -36,6 +36,7 @@ a {
   padding: 1.2rem;
   border-radius: 20px;
   background-color: white;
+  box-shadow: 7px 7px 25px 5px rgba(0, 0, 0, 0.75);
   /* background: rgb(255, 200, 81);
   background: linear-gradient(
     90deg,
@@ -43,6 +44,11 @@ a {
     rgba(255, 219, 62, 1) 48%,
     rgba(255, 200, 81, 1) 87%
   ); */
+}
+.nft-card:hover {
+  transition: 500ms;
+  transform: scale(1.1);
+  box-shadow: 7px 7px 25px 5px rgba(238, 255, 0, 0.75);
 }
 .nft-img-card {
   border-radius: 20px;
